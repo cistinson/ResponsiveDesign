@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>The Importance of Responsive Web Design</title>
+    <style>
+      body{
+        background-color:aliceblue;
+        padding:0 2% 0 2%;
+        width:45%;
+        margin-left:25%;
+        margin-right:25%;
+      }
+      h1 {
+       margin-bottom:0px;
+       padding-bottom: 0px;
+      }
+      h2{
+        margin-top:0px;
+        padding-top:0px;
+      }
+      label{
+        color:blue;
+        margin: 5px;
+      }
+      form{
+        background-color:aqua;
+        padding:1%;
+        border-radius:2%;
+        width:100%;
+      }
+      input{
+        padding:0.4%;
+        margin:0.5% 0% 0.5% 0%;
+      }
+      fieldset{
+        background-color:beige;
+        width:90%;
+        margin-top:1%;
+      }
+      legend{
+        background-color:beige;
+        width:50%;
+      }
+  </style>
+  </head>
+  
+<body>  
+  <h1>Responive Web Design</h1>
+  <h2>Why it matters...</h2>
+  
+  <p>At its core, web development and design has a simple purpose – to convey information. Whether it’s helping potential customers locate a new restaurant, a sports fan check game scores, or a student find sources for their research paper, the ultimate goal is the same. However, the pursuit of that goal has become more challenging in recent years. No longer can web developers accurately predict how their web sites will be viewed by the end user. Today a web site can be viewed on an Xbox, a Toyota Camry, and even a refrigerator! How is a web developer supposed to create a site that functions on all of these devices? That’s where responsive web design comes into play.  Creating responsive web sites helps solve two major hurdles that development teams face when attempting to create sites for a nearly infinite number of devices:</p>
+  
+  <ol>
+    <li><strong>Your page will look good, no matter the device</strong>: having a page that looks as good on a desktop computer as it does on a smart phone is a necessity in today’s world. We’ve all found websites on our phones that frustrate us to the point that we simply leave the page. In many cases, these pages were likely optimized to work on a standard computer screen, not your phone. To make the most effective website you need to reach as many end users as possible, in a way that is appealing and easy to use. Using a responsive design allows this to happen.</li>
+    <li><strong>Reduced development costs</strong>: some companies choose to create multiple codes sets for their sites to ensure their content is viewable on numerous devices. This means anytime there are changes to a site they must be made to both code sets, resulting in extra development costs. Creating a responsive, flexible site that can be viewed on a multitude of devices allows developers to make changes once and keep their costs to a minimum.</li>
+  </ol>
+
+    <form>
+          <h3>Tell us how your business stacks up:</h3>  
+      <label>Full Name: <input type="text" name="name" required></label><br />
+      <label>Company Name: <input type="text" name="company" required></label><br />
+      
+      <label>What industry does your company operate in?</label>
+      <select name="industryType">
+        <option value="marketing">Sales and Marketing</option>
+        <option value="technology">Technology</option>
+        <option value="manufacturing">Manufacturing</option>
+        <option value="financial">Financial Services</option>
+        <option value="other">Other</option>
+      </select><br />
+  
+      <label>How large is your development team? <input type="number" name="devSize"></label>
+    <fieldset>
+      <legend>On a scale of one to ten, how responsive is your web presence?</legend>
+      
+      <label>One
+            <input type="radio" name="responsiveScore">
+      </label>
+
+      <label>Two
+            <input type="radio" name="responsiveScore">
+      </label>
+      
+      <label>Three
+            <input type="radio" name="responsiveScore" >
+      </label>  
+      
+      <label>Four
+            <input type="radio" name="responsiveScore" >
+      </label>
+      
+      <label>Five
+            <input type="radio" name="responsiveScore" >
+      </label>
+      
+      <label>Six
+            <input type="radio" name="responsiveScore" >
+      </label>
+      
+      <label>Seven
+            <input type="radio" name="responsiveScore" >
+      </label>
+      
+      <label>Eight
+            <input type="radio" name="responsiveScore" >
+      </label>
+      
+      <label>Nine
+            <input type="radio" name="responsiveScore" >
+      </label>
+      
+      <label>Ten
+            <input type="radio" name="responsiveScore" >
+      </label>
+      
+    </fieldset>
+    
+    <fieldset>
+      <legend>What could your company do better?</legend>
+      
+      <label>Reduce the number of code sets
+        <input type="checkbox" name="codeSets">
+      </label>
+      
+      <label>Optimize for mobile
+        <input type="checkbox" name="optimize">
+      </label>
+      
+      <label>Hire responsive design developers
+        <input type="checkbox" name="developers">
+      </label>
+    
+    </fieldset>
+    
+    <input type="submit" value="SUBMIT" name="submit">
+  </form>
+  </body>
+
+
+</html>
